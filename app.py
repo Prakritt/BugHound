@@ -11,8 +11,8 @@ app.secret_key = 'secret'
 # Initialize Flask app with secret key for session management
 # Configure reCAPTCHA keys for form security
 # Define the URL for reCAPTCHA verification
-SITE_KEY='6LfadvIoAAAAAG4YiNApxRxQ48FGEGM4HxRUktLN'
-SECRET_KEY='6LfadvIoAAAAAO5VM-BLdcK38hEu4xGUJrKZbbiV'
+SITE_KEY='asdsdf'
+SECRET_KEY='6LfadvIoAAAAAO5VM-asdfsdfg'
 VERIFY_URL = 'https://www.google.com/recaptcha/api/siteverify'
 
 # MySQL Configuration
