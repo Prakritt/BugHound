@@ -1,0 +1,26 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Bughound Application</title>
+    <link href="{{url_for('static', filename = 'css/bootstrap.min.css')}}" rel="stylesheet">
+    <script src="https://www.google.com/recaptcha/api.js"></script>
+    <!-- Integrating Google reCAPTCHA into a web form -->
+      <script>
+        function onSubmit(token) {
+          document.getElementById("for-captcha").submit();
+        }
+      </script>
+    <!-- Integrating Google reCAPTCHA into a web form -->
+  </head>
+  <body>
+    <div class="container">
+      <div class="well text-center">
+
+        <h1>Welcome to Bug Hound</h1>
+
+      </div>
+    </div>
+      
+  </body>
+</html>
+
